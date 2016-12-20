@@ -250,6 +250,10 @@ PRODUCT_PACKAGES += \
     libOmxVidEnc \
     libstagefrighthw
 
+# DRM
+PRODUCT_PACKAGES += \
+    libshims_wvm
+
 # Power
 PRODUCT_PACKAGES += \
     power.msm8992
